@@ -1,0 +1,28 @@
+{
+  "title": "OpenWrt Wake-on-LAN",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Router SSH connection",
+        "description": "Connect to your OpenWrt router to retrieve devices.",
+        "data": {
+          "ssh_host": "SSH Host",
+          "ssh_user": "SSH Username",
+          "ssh_key": "SSH Private Key Path"
+        }
+      },
+      "select_device": {
+        "title": "Select device and interface",
+        "description": "Choose a known device MAC address and network interface from your router",
+        "data": {
+          "device": "Device",
+          "interface": "Network Interface"
+        }
+      }
+    },
+    "error": {
+      "ssh_failed": "SSH connection failed. Please verify the credentials.",
+      "no_data": "Failed to retrieve devices from the router."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "OpenWrt Wake-on-LAN",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Připojení k routeru přes SSH",
+        "description": "Připojte se k routeru OpenWrt pro načtení seznamu zařízení.",
+        "data": {
+          "ssh_host": "SSH adresa",
+          "ssh_user": "Uživatelské jméno SSH",
+          "ssh_key": "Cesta k privátnímu SSH klíči"
+        }
+      },
+      "select_device": {
+        "title": "Vyberte zařízení a rozhraní",
+        "description": "Vyberte známou MAC adresu zařízení a síťové rozhraní z routeru",
+        "data": {
+          "device": "Zařízení",
+          "interface": "Síťové rozhraní"
+        }
+      }
+    },
+    "error": {
+      "ssh_failed": "Připojení přes SSH selhalo. Zkontrolujte přihlašovací údaje.",
+      "no_data": "Nepodařilo se načíst zařízení z routeru."
+    }
+  }
+}

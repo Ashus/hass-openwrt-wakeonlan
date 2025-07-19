@@ -1,0 +1,8 @@
+DOMAIN = "openwrt_wakeonlan"
+CONF_DEVICES = "devices"
+CONF_NAME = "name"
+CONF_MAC = "mac"
+CONF_INTERFACE = "interface"
+CONF_SSH_HOST = "ssh_host"
+CONF_SSH_USER = "ssh_user"
+CONF_SSH_KEY = "ssh_key"
