@@ -1,7 +1,6 @@
 {
   "name": "OpenWrt Wake-on-LAN",
   "content_in_root": false,
-  "filename": "custom_components/openwrt_wakeonlan/manifest.json",
   "zip_release": false,
   "render_readme": true,
   "homeassistant": "2025.5.2"
